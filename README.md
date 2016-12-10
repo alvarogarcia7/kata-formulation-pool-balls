@@ -47,7 +47,7 @@ Explanation:
 Given that there are two solutions (`amount:1` and `amount:2`), we prefer the one with the biggest `amount`
 
 
-### A note about the problem domain
+## Business domain
 
 A triangle of pool balls is equivalent to an array of ball representations
 
