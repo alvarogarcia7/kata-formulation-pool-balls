@@ -8,49 +8,6 @@ The balls end up inside the triangle in a random order (depending on the previou
 
 Your job is to arrange the balls in their correct order.
 
-### A note about the problem domain
-
-A triangle of pool balls is equivalent to an array of ball representations
-
-<img src="./images/1.jpeg" width="400" height="400"><img src="./images/2.jpeg" width="400" height="400">
-<img src="./images/3.jpeg" width="400" height="400"><img src="./images/4.jpeg" width="400" height="400">
-
-In this case, a `String` is enough to represent it.
-
-The valid format is:
-
-  * Y for Yellow
-  * B for Black
-  * R for Red
-
-Constraints:
-
-  * All balls with the same color are considered the identical.  
-  * The swap operation cannot introduce repeated states (see example below).
-  * The swap operation must produce a new state, different than the old one.
-  
-## Input and output
-
-Expected format:
-
-```
-amount:$AMOUNT
-swap:$FROM,$TO
-swap:$FROM,$TO
-```
-
-  * Given that the swap operation satisfies this property: `swap:X,Y` == `swap:Y,X`, we'll write the smaller number first. Implies: `X <= Y`
-  * Given that the swap with itself (`swap:X,X`) is not a valid operation, implies: `X != Y`
-  * Corollary: For every swap between X and Y, `X < Y`
-
-Example:
-
-```
-amount:2
-swap:1,2
-swap:1,8
-```
-  
 ## Problems
 
 ### Problem 1
@@ -88,3 +45,47 @@ Explanation:
      * `swap:1,2` (`YYR` -> `YRY`) solves the problem
  
 Given that there are two solutions (`amount:1` and `amount:2`), we prefer the one with the biggest `amount`
+
+
+### A note about the problem domain
+
+A triangle of pool balls is equivalent to an array of ball representations
+
+<img src="./images/1.jpeg" width="400" height="400"><img src="./images/2.jpeg" width="400" height="400">
+<img src="./images/3.jpeg" width="400" height="400"><img src="./images/4.jpeg" width="400" height="400">
+
+In this case, a `String` is enough to represent it.
+
+The valid format is:
+
+  * Y for Yellow
+  * B for Black
+  * R for Red
+
+Constraints:
+
+  * All balls with the same color are considered the identical.  
+  * The swap operation cannot introduce repeated states (see example above).
+  * The swap operation must produce a new state, different than the old one.
+  
+## Input and output
+
+Expected format:
+
+```
+amount:$AMOUNT
+swap:$FROM,$TO
+swap:$FROM,$TO
+```
+
+  * Given that the swap operation satisfies this property: `swap:X,Y` == `swap:Y,X`, we'll write the smaller number first. Implies: `X <= Y`
+  * Given that the swap with itself (`swap:X,X`) is not a valid operation, implies: `X != Y`
+  * Corollary: For every swap between X and Y, `X < Y`
+
+Example:
+
+```
+amount:2
+swap:1,2
+swap:1,8
+```
