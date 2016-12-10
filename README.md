@@ -21,27 +21,7 @@ The valid format is:
   * B for Black
   * R for Red
   
-## Problems
-
-### Problem 1
-
-Calculate how many ball swaps are necessary to arrange the balls from the initial state to the corect one
-
-Expected format:
-
-```
-amount:$AMOUNT
-```
-
-Example:
-
-```
-amount:0
-```
-
-### Problem 2
-
-Calculate which ball swaps are necessary to arrange the balls. 
+## Input and output
 
 Expected format:
 
@@ -58,6 +38,15 @@ amount:2
 swap:1,2
 swap:1,8
 ```
+  
+## Problems
+
+### Problem 1
+
+Calculate how many ball swaps are necessary to arrange the balls from the initial state to the corect one
+
+### Problem 2
+
+Calculate which ball swaps are necessary to arrange the balls. 
 
 Suggestion: solve problem 1 first
-
