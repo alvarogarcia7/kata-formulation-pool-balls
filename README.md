@@ -66,3 +66,13 @@ amount:2
 swap:0,2
 swap:1,2
 ```
+
+Explanation:
+
+  * From the initial state, `swap:0,1` (RYY -> YRY) solves the problem
+  * From the initial state, `swap:1,2` (RYY -> RYY) is a forbidden swap because it is idempotent (i.e., introduces no change in the state)
+  * From the initial state, `swap:0,2` (RYY -> YYR)
+     * `swap:0,2` (YYR -> RYY) is forbidden for repeating state (introduces a loop)
+     * `swap:1,2` (YYR -> YRY) solves the problem
+ 
+Given that there are two solutions (`amount:1` and `amount:2`), we prefer the one with the biggest `amount`
