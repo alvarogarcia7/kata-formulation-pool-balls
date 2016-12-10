@@ -14,6 +14,8 @@ Your job is to arrange the balls in their correct order.
 
 Calculate **the minimum number** of necessary ball swaps from the initial state to the corect one
 
+Hint: It does not matter which swaps if there are several paths to completion
+
 ### Problem 2
 
 Calculate **which ball swaps** are the minimum necessary set to arrange the balls. 
