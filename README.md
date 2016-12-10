@@ -6,6 +6,21 @@ The pool ballks must be distributed in a very specific fashion, according to the
 
 The balls end up inside the triangle in a random order (depending on the previous match).
 
+### A note about the problem domain
+
+A triangle of pool balls is equivalent to an array of ball representations
+
+<img src="./images/1.jpeg" width="400" height="400"><img src="./images/2.jpeg" width="400" height="400">
+<img src="./images/3.jpeg" width="400" height="400"><img src="./images/4.jpeg" width="400" height="400">
+
+In this case, a `String` is enough to represent it.
+
+The valid format is:
+
+  * Y for Yellow
+  * B for Black
+  * R for Red
+
 ### Problem 1
 
 Calculate how many ball swaps are necessary to arrange the balls from the initial state to the corect one
