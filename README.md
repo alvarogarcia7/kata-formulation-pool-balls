@@ -55,3 +55,14 @@ Suggestion: solve problem 1 first
 
 Calculate **which ball swaps** are the longest path from the initial state to the correct one, without repeating intermediate states (I.e., there are not loops in the states)
 
+Example:
+  
+  * Assume "YRY" is the correct state
+  * Assume "RYY" is the initial state
+  
+The solution is:
+```
+amount:2
+swap:0,2
+swap:1,2
+```
