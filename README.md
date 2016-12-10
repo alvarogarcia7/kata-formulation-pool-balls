@@ -49,12 +49,18 @@ Given that there are two solutions (`amount:1` and `amount:2`), we prefer the on
 
 ## Business domain
 
-A triangle of pool balls is equivalent to an array of ball representations
+### Representation equivalence
+
+Theorem: A triangle of pool balls is equivalent to an array of ball representations
+
+Proof:
 
 <img src="./images/1.jpeg" width="400" height="400"><img src="./images/2.jpeg" width="400" height="400">
 <img src="./images/3.jpeg" width="400" height="400"><img src="./images/4.jpeg" width="400" height="400">
 
 In this case, a `String` is enough to represent it.
+
+### Format
 
 The valid format is:
 
@@ -62,7 +68,7 @@ The valid format is:
   * B for Black
   * R for Red
 
-Constraints:
+### Constraints
 
   * All balls with the same color are considered the identical.  
   * The swap operation cannot introduce repeated states (see example above).
