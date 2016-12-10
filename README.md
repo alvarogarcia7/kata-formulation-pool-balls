@@ -20,6 +20,12 @@ The valid format is:
   * Y for Yellow
   * B for Black
   * R for Red
+
+Constraints:
+
+  * All balls with the same color are considered the identical.  
+  * The swap operation cannot introduce repeated states (see example below).
+  * The swap operation must produce a new state, different than the old one.
   
 ## Input and output
 
