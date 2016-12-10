@@ -20,6 +20,8 @@ The valid format is:
   * Y for Yellow
   * B for Black
   * R for Red
+  
+## Problems
 
 ### Problem 1
 
