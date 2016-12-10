@@ -43,7 +43,7 @@ swap:1,8
 
 ### Problem 1
 
-Calculate how many ball swaps are necessary to arrange the balls from the initial state to the corect one
+Calculate the minimum number of necessary ball swaps from the initial state to the corect one
 
 ### Problem 2
 
