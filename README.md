@@ -22,7 +22,7 @@ Suggestion: solve problem 1 first
 
 ### Problem 3 (:star:)
 
-Calculate **which ball swaps** are the longest path from the initial state to the correct one, without repeating intermediate states (I.e., there are not loops in the states)
+Calculate **which ball swaps** are the longest path from the initial state to the correct one, without repeating intermediate states (i.e., there are not loops in the states)
 
 Example:
   
