@@ -30,8 +30,8 @@ Expected format:
 
 ```
 amount:$AMOUNT
-swap: $FROM,$TO
-swap: $FROM,$TO
+swap:$FROM,$TO
+swap:$FROM,$TO
 ```
 
 Example:
