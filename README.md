@@ -6,6 +6,8 @@ The pool balls must be distributed in a very specific fashion, according to the 
 
 The balls end up inside the triangle in a random order (depending on the previous match).
 
+Your job is to arrange the balls in their correct order.
+
 ### A note about the problem domain
 
 A triangle of pool balls is equivalent to an array of ball representations
