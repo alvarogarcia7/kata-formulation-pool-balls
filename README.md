@@ -57,8 +57,21 @@ Theorem: A triangle of pool balls is equivalent to an array of ball representati
 
 Proof:
 
-<img src="./images/1.jpeg" width="400" height="400"><img src="./images/2.jpeg" width="400" height="400">
-<img src="./images/3.jpeg" width="400" height="400"><img src="./images/4.jpeg" width="400" height="400">
+<img src="./images/1.jpeg" width="400" height="400">
+
+Position the balls in any disposition. Here, showing the final one.
+
+<img src="./images/2.jpeg" width="400" height="400">
+
+Take the balls from left to right, starting at the top then going down.
+
+<img src="./images/3.jpeg" width="400" height="400">
+
+From the notation used, replace it with Y for yellow, R for red, B for black. Make it an array of characters
+
+<img src="./images/4.jpeg" width="400" height="400">
+
+Using the previous notation, convert it from an array of characters to a String (which is an array of characters in some languages)
 
 In this case, a `String` is enough to represent it.
 
