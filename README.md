@@ -79,9 +79,9 @@ In this case, a `String` is enough to represent it.
 
 The valid format is:
 
-  * Y for Yellow
-  * B for Black
-  * R for Red
+  * `Y` for Yellow
+  * `B` for Black
+  * `R` for Red
 
 ### Constraints
 
