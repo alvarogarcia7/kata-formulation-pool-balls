@@ -87,6 +87,7 @@ The valid format is:
 
 These are the general constraints for the problem:
 
+  * All initial dispositions are correct in terms of balls: i.e., the order of the balls might have changed, but the amount of each ball is correct.
   * All balls with the same color are considered the identical.  
   * The swap operation cannot introduce repeated states (see example above).
   * The swap operation must produce a new state, different than the old one.
