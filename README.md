@@ -67,7 +67,7 @@ Take the balls from left to right, starting at the top then going down.
 
 <img src="./images/3.jpeg" width="400" height="400">
 
-From the notation used, replace it with Y for yellow, R for red, B for black. Make it an array of characters
+From the notation used, replace it with `Y` for yellow, `R` for red, `B` for black. Make it an array of characters
 
 <img src="./images/4.jpeg" width="400" height="400">
 
