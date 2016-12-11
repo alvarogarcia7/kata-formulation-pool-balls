@@ -85,6 +85,8 @@ The valid format is:
 
 ### Constraints
 
+These are the general constraints for the problem:
+
   * All balls with the same color are considered the identical.  
   * The swap operation cannot introduce repeated states (see example above).
   * The swap operation must produce a new state, different than the old one.
