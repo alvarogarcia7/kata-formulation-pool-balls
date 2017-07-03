@@ -30,6 +30,7 @@ Example:
   
   * Assume `YRY` is the correct state
   * Assume `RYY` is the initial state
+  * So you should rearrange the `RYY` balls into the `YRY` arrangement
   
 The solution is:
 ```
