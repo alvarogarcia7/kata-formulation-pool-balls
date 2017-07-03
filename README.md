@@ -51,7 +51,7 @@ Given that there are two solutions (`amount:1` and `amount:2`), we prefer the on
 
 ## Business domain
 
-### Official pool shape
+### Official pool arrangement
 
 The desired shape should be:
 
