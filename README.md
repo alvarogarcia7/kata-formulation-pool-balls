@@ -106,7 +106,7 @@ These are the general constraints for the problem:
 Expected input format:
 
 ```
-YYBBRRBBYYYBBYY
+YYYYYYYBRRRRRRR
 ```
 
 15 balls coded as a String, indicating the order.
@@ -118,6 +118,8 @@ amount:$AMOUNT
 swap:$FROM,$TO
 swap:$FROM,$TO
 ```
+
+Some rules about the output:
 
   * Given that the swap operation satisfies this property: `swap:X,Y` == `swap:Y,X`, we'll write the smaller number first. Implies: `X <= Y`
   * Given that the swap with itself (`swap:X,X`) is not a valid operation, implies: `X != Y`
