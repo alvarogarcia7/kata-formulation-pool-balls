@@ -104,7 +104,7 @@ swap:$FROM,$TO
 
   * Given that the swap operation satisfies this property: `swap:X,Y` == `swap:Y,X`, we'll write the smaller number first. Implies: `X <= Y`
   * Given that the swap with itself (`swap:X,X`) is not a valid operation, implies: `X != Y`
-  * Corollary: For every swap between `X` and `Y`, `X < Y`
+  * Corollary: For every swap between `X` and `Y` (`swap:X,Y`), `X < Y`
 
 Example:
 
