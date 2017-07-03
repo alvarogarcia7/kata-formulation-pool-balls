@@ -97,8 +97,10 @@ These are the general constraints for the problem:
 Expected input format:
 
 ```
-YYBBRRBBYYYBB
+YYBBRRBBYYYBBYY
 ```
+
+15 balls coded as a String
 
 Expected output format:
 
