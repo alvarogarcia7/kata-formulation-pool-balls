@@ -51,6 +51,14 @@ Given that there are two solutions (`amount:1` and `amount:2`), we prefer the on
 
 ## Business domain
 
+### Official pool shape
+
+The desired shape should be:
+
+```RYRRBYYRYRRYRYY```
+
+altough this could be changed in a future release
+
 ### Representation equivalence
 
 Theorem: A triangle of pool balls is equivalent to an array of ball representations
@@ -100,7 +108,7 @@ Expected input format:
 YYBBRRBBYYYBBYY
 ```
 
-15 balls coded as a String
+15 balls coded as a String, indicating the order.
 
 Expected output format:
 
