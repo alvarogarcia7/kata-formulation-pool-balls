@@ -94,7 +94,13 @@ These are the general constraints for the problem:
   
 ## Input and output
 
-Expected format:
+Expected input format:
+
+```
+YYBBRRBBYYYBB
+```
+
+Expected output format:
 
 ```
 amount:$AMOUNT
